@@ -6,7 +6,7 @@ body {
 }
 
 .phototxt {
-  padding: 10PX;
+  padding: 10px 0;
   display: flex;
   flex-direction: row;
   justify-content: left;
@@ -49,7 +49,7 @@ i {
 }
 
 /* on mobile reduce image size */
-@media (max-width: 600px) {
+@media (max-width: 660px) {
   img {
     width: 100px;
     height: 100px;
