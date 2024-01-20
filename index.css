@@ -6,6 +6,7 @@ body {
 }
 
 .phototxt {
+  padding: 10PX;
   display: flex;
   flex-direction: row;
   justify-content: left;
@@ -45,4 +46,24 @@ i {
   font-size: 1.5rem;
   margin-right: 10px;
   color: rgb(255, 255, 255);
+}
+
+/* on mobile reduce image size */
+@media (max-width: 600px) {
+  img {
+    width: 100px;
+    height: 100px;
+  }
+  .phototxt {
+    height: 100px;
+  }
+  h1 {
+    font-size: 1.5rem;
+  }
+  p {
+    font-size: 0.8rem;
+  }
+  i {
+    font-size: 1rem;
+  }
 }
